@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Dossier #1</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<script src="boot.js"></script>
+<script src="reveal.js"></script>
+<script src="contact.js"></script>
+
+<body class="booting">
+	<main class="terminal-content">
+
+        <pre id="boot" class="boot-log"></pre>
+
+        <div class="page-content">
+
+            <div id="site-header"></div>
+			<script src="include-header.js"></script>
+            
+            <section class="contact-center">
+                <h1>Contact</h1>
+
+                <form class="terminal-form"
+                        action="https://formspree.io/f/mkgdeoge"
+                        method="POST">
+                
+                    <label>
+                        <span>Sujet</span>
+                        <input type="text"
+                                name="subject"
+                                autocomplete="off"
+                                required>
+                    </label>
+                
+                    <label>
+                        <span>Message</span>
+                        <textarea rows="te8xt"
+                                    name="message"
+                                    required></textarea>
+                    </label>
+                
+                    <button class="terminal-button" type="submit">Envoyer</button>
+                </form>
+            </section>
+
+        </div>
+
+	</main>
+</body>
+
+</html>
